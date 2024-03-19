@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>To-Do List App</p>
+      <div class="d-flex align-items-center gap-1">
+        <input
+          class="form-control"
+          type="text"
+          id="taskInput"
+          placeholder="Add a task ..." />
+        <button type="submit" onclick="add()" class="btn btn-primary">
+          Add
+        </button>
+      </div>
+    </div>
+    <ul></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
