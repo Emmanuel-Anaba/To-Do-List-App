@@ -7,9 +7,8 @@
 
 /* Variables */
 :root {
-  --color-100: #d9f7ff;
-  --color-200: #b0eeff;
-  --color-700: #258099;
+  --color-100: #dbd9ff;
+  --color-200: #3931cc;
 }
 
 /* Main Styles */
@@ -17,13 +16,13 @@ body {
   font-family: system-ui, "Segoe UI", sans-serif;
   line-height: 1.7;
   background: var(--color-100);
-  color: var(--color-200);
+  color: var(--color-100);
 }
 
 .container {
   position: sticky;
   top: 0;
-  background: var(--color-700);
+  background: var(--color-200);
   padding: 1rem;
 }
 
@@ -45,21 +44,21 @@ input {
   letter-spacing: 0.5px;
   background: transparent;
   border: none;
-  border-bottom: 1px solid var(--color-200);
-  color: var(--color-200);
+  border-bottom: 1px solid var(--color-100);
+  color: var(--color-100);
   outline: none;
 }
 
 input::placeholder {
-  color: var(--color-200);
+  color: var(--color-100);
 }
 
 button {
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   background: transparent;
-  color: var(--color-200);
-  border: 1px solid var(--color-200);
+  color: var(--color-100);
+  border: 1px solid var(--color-100);
 }
 
 ul {
@@ -70,7 +69,7 @@ ul {
 ul li {
   padding: 0.35rem 0.7rem;
   margin-block: 0.5rem;
-  background: var(--color-700);
+  background: var(--color-200);
   border-radius: 0.3rem;
   position: relative;
 }
@@ -90,11 +89,11 @@ span {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
-  background: var(--color-700);
+  background: var(--color-200);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-200);
+  background: var(--color-100);
 }
 
 ::-webkit-scrollbar-track {
